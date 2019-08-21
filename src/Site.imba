@@ -18,6 +18,7 @@ tag App
 	def render
 		<self.vbox>
 			<h1.title> "100DaysOfCode - Challenge"
+			<h2.subtitle> "This site is a work in progress"
 			<p> "A challenge I am doing to become better at doing frontend devlopmenet"
 			# TODO: fix routing
 			# <ul.days>
