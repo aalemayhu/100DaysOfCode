@@ -5,5 +5,18 @@
   "main": "index.js",
   "repository": "git@github.com:scanf/100DaysOfCode.git",
   "author": "Alexander Alemayhu <alexander@alemayhu.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base dist/",
+    "build": "webpack",
+    "watch": "webpack --watch --progress --colors --display-modules"
+  },
+  "dependencies": {
+    "imba": "^1.4.4",
+    "webpack": "^4.39.2",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  }
 }
