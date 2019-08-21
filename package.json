@@ -1,0 +1,9 @@
+{
+  "name": "100DaysOfCode",
+  "version": "1.0.0",
+  "description": "frontend coding challenge",
+  "main": "index.js",
+  "repository": "git@github.com:scanf/100DaysOfCode.git",
+  "author": "Alexander Alemayhu <alexander@alemayhu.com>",
+  "license": "MIT"
+}
