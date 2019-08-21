@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "imba": "^1.4.4",
+    "imba-router": "^0.4.0",
     "webpack": "^4.39.2",
     "webpack-dev-server": "^3.8.0"
   },

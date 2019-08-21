@@ -1711,6 +1711,11 @@ ignore-walk@^3.0.1:
   dependencies:
     minimatch "^3.0.4"
 
+imba-router@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/imba-router/-/imba-router-0.4.0.tgz#f46914c53ebfb7f766a5f6315b736c697f2d3058"
+  integrity sha512-J/GmSYqQP8PaGlyXDlhRUi0zD8G+Ugaw0t5u+69WhA4UhLtAY33V62BsLSLTH7w+NeH7XcRO07ONAhsT0VfmDw==
+
 imba@^1.4.4:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/imba/-/imba-1.4.4.tgz#9be69e5725cb5a42e14542c35ccc3b048fa334d3"
