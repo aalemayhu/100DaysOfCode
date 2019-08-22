@@ -1,6 +1,6 @@
-import Day1 from './Day1'
-
 require 'imba-router'
+
+import Day1 from './Day1'
 
 
 # TODO: read generate this from the file system
@@ -11,20 +11,22 @@ let days = [
 ]
 
 
+
+
 tag App
 	def slugify input
 		input.toLowerCase().replace(' ', '')
 		
 	def render
-		<self.vbox>
+		<self>
 			<h1.title> "100DaysOfCode - Challenge"
 			<h2.subtitle> "This site is a work in progress"
 			<p> "A challenge I am doing to become better at doing frontend devlopmenet"
-			# TODO: fix routing
-			# <ul.days>
-			# 	for day in days
-			# 		<li>
-			# <a href="{slugify(day:name)}"> "{day:name}"
-			# <Day1 route="/day1">
+			<ul.days>
+				for day in days
+					console.log day:page
+					<li>
+						<a route-to="/{slugify(day:name)}"> "{day:name}"
+			<Day1 route='/day1'>
 
 Imba.mount <App>
