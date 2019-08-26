@@ -1,3 +1,23 @@
-.content {
+body {
+	margin: 0;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header {
+	background: black;
+	color: white;
 	text-align: center;
+	padding: 12px;
+}
+
+main {
+	margin: 0 auto;
+	width: 480px;
+}
+
+footer {
+	background: black;
+	margin-top: auto;
+	color: white;
+	padding: 6px;
 }
