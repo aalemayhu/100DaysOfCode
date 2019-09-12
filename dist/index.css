@@ -1,23 +1,48 @@
+/* Typography */
+
 body {
-	margin: 0;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-header {
-	background: black;
-	color: white;
-	text-align: center;
-	padding: 12px;
+/* Layout */
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: beige;
+}
+
+.container {
+	flex-direction: column;
+	min-height: 100vh;
+	display: flex;
 }
 
 main {
+	flex-grow: 1;
 	margin: 0 auto;
-	width: 480px;
+	color: #5c97bf;
+}
+
+header, main, footer {
+	flex-shrink: 0;
+}
+
+header {
+	justify-content: center;
+	background: #22a7f0;
+	display: flex;
+	color: white;
+	padding: 1rem;
 }
 
 footer {
 	background: black;
-	margin-top: auto;
 	color: white;
-	padding: 6px;
+	padding: 1rem;
+}
+
+span a {
+	color: lightblue;
 }
